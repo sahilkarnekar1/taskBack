@@ -5,7 +5,7 @@ const mongoose = require('mongoose');
 const connectDB = async () => {
   try {
     // MongoDB connection string
-    const connectionString = 'mongodb+srv://tt1:1reAbUnozOtIC74o@cluster0.pyhi6xj.mongodb.net/mydb';
+    const connectionString = 'mongodb+srv://tt2:Nre6TiRwrB0yKEzM@cluster0.pyhi6xj.mongodb.net/mydb';
 
     // Connect to MongoDB
     await mongoose.connect(connectionString);
