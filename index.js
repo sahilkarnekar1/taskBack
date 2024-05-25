@@ -12,7 +12,9 @@ app.use(express.json());
 app.use(cors())
 // Connect to MongoDB
 connectDB();
-
+app.get('/', (req, res) => {
+  res.send('Hello, World!');
+});
 // Other server setup and routes
 app.use('/api/user', auth);
 app.use('/api/user', task);
